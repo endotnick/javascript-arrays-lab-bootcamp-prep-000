@@ -19,11 +19,13 @@ function destructivelyRemoveLastKitten() {
 }
 
 function appendKitten(name) {
-
+  const arr = kittens;
+  return arr.push(name);
 }
 
 function prependKitten(name) {
-
+  const arr = kittens;
+  return arr.unshift(name);
 }
 
 function removeFirstKitten(name) {
