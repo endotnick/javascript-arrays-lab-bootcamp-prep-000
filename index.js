@@ -27,10 +27,10 @@ function prependKitten(name) {
 }
 
 function removeFirstKitten(name) {
-
+  kittens.slice(1);
 }
 
 function removeLastKitten(name) {
-  var arr = kittens;
-  return arr.pop()
+  kittens.slice(-1);
+  
 }
